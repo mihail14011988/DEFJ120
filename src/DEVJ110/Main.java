@@ -15,8 +15,9 @@ public class Main {
             System.out.println(copy.hashCode() );
             System.out.println(origin.hashCode() );
             System.out.println(orig.hashCode() );
-            System.out.println(origin.equals(copy)
-            );
+            System.out.println(origin.equals(copy));
+
+
 
         } catch (UserException1 e) {
             e.printStackTrace();
